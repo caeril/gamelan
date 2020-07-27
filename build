@@ -1,0 +1,6 @@
+#!/bin/bash
+
+clang++ -o gamelan \
+	-lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf \
+	main.cpp \
+	
